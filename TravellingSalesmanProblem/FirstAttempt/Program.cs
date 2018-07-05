@@ -1,10 +1,14 @@
-﻿namespace FirstAttempt
+﻿using System;
+
+namespace FirstAttempt
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main()
         {
             MapExtensions.SolveExample();
+
+            Console.ReadLine();
         }
     }
 }
